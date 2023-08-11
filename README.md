@@ -1,5 +1,6 @@
 # Field_Experience
 여름 계절 학기 현장실습 진행 내용 코드 및 정리 사항
+(코드는 핵심 동작 코드만 업로드 ... 다른 STM32 IDE가 생성한 코드는 X)
 
 ### 7월
 | No | Notion Link |
