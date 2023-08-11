@@ -13,6 +13,6 @@
 | No | Notion Link |
 |:--------:|:--------:|
 | 1주차 | 휴가 |
-| 2주차 |  |
+| 2주차 | https://onewest.notion.site/6-beb110a1b70a4b3284471d6e44af6d77?pvs=4 |
 | 3주차 |  |
 | 4주차 |  |
