@@ -16,5 +16,4 @@
 | 1주차 | 휴가 |
 | 2주차 | https://onewest.notion.site/6-beb110a1b70a4b3284471d6e44af6d77?pvs=4 |
 | 3주차 | https://onewest.notion.site/7-111aaa4dcd264d3dbdb034ef6390a0a1?pvs=4 |
-| 4주차 |  |
-| 5주차 |  |
+| 4-5주차 | https://onewest.notion.site/8-9-7cec95fbd5d44060bb6ecc4b402655b4?pvs=4 |
