@@ -1,0 +1,15 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/clock_screen/ClockView.cpp:20:6:virtual void ClockView::tearDownScreen()	0	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/clock_screen/ClockView.cpp:72:6:virtual void ClockView::btnSaveTimeClicked()	0	static
+../../TouchGFX/gui/include/gui/clock_screen/ClockView.hpp:11:13:ClockView::~ClockView()	8	static
+../../TouchGFX/gui/include/gui/clock_screen/ClockView.hpp:11:13:virtual ClockView::~ClockView()	8	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/clock_screen/ClockView.cpp:3:1:ClockView::ClockView()	8	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/clock_screen/ClockView.cpp:8:6:virtual void ClockView::setupScreen()	8	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/clock_screen/ClockView.cpp:78:6:virtual void ClockView::handleTickEvent()	12	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/clock_screen/ClockView.cpp:30:6:virtual void ClockView::btnHourUpClicked()	8	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/clock_screen/ClockView.cpp:37:6:virtual void ClockView::btnHourDownClicked()	8	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/clock_screen/ClockView.cpp:44:6:virtual void ClockView::btnMinUpClicked()	8	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/clock_screen/ClockView.cpp:51:6:virtual void ClockView::btnMinDownClicked()	8	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/clock_screen/ClockView.cpp:58:6:virtual void ClockView::btnSecUpClicked()	8	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/clock_screen/ClockView.cpp:65:6:virtual void ClockView::btnSecDownClicked()	8	static

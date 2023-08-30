@@ -1,0 +1,6 @@
+../../TouchGFX/gui/include/gui/musiclist_screen/MusicListPresenter.hpp:28:13:MusicListPresenter::~MusicListPresenter()	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/musiclist_screen/MusicListPresenter.cpp:10:6:virtual void MusicListPresenter::activate()	1
+../../TouchGFX/gui/include/gui/musiclist_screen/MusicListPresenter.hpp:28:13:virtual MusicListPresenter::~MusicListPresenter()	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/musiclist_screen/MusicListPresenter.cpp:20:6:virtual void MusicListPresenter::musicSelected(int16_t)	1
+../../TouchGFX/gui/include/gui/musiclist_screen/MusicListPresenter.hpp:28:13:virtual void* MusicListPresenter::_ZThn4_N18MusicListPresenterD1Ev()	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/musiclist_screen/MusicListPresenter.cpp:4:1:MusicListPresenter::MusicListPresenter(MusicListView&)	1
