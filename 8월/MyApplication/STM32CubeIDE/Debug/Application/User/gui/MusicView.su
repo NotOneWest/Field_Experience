@@ -5,11 +5,11 @@ C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:43
 ../../TouchGFX/gui/include/gui/music_screen/MusicView.hpp:11:13:virtual MusicView::~MusicView()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Bitmap.hpp:133:14:touchgfx::BitmapId touchgfx::Bitmap::getId() const	8	static
 C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:33:1:MusicView::MusicView()	8	static
-C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:113:1:cpp)	0	static
-C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:113:1:cpp)	0	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:125:1:cpp)	0	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:125:1:cpp)	0	static
 C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:38:6:virtual void MusicView::setupScreen()	0	static
 C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:48:6:virtual void MusicView::SetMusicItem(int16_t)	112	static
-C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:75:6:virtual void MusicView::btnNextClicked()	8	static
-C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:82:6:virtual void MusicView::btnPrevClicked()	16	static
-C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:95:6:virtual void MusicView::playMusic()	16	static
-C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:101:6:virtual void MusicView::handleTickEvent()	24	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:75:6:virtual void MusicView::btnNextClicked()	16	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:87:6:virtual void MusicView::btnPrevClicked()	16	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:101:6:virtual void MusicView::playMusic()	16	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:107:6:virtual void MusicView::handleTickEvent()	24	static

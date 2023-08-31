@@ -28,7 +28,7 @@ extern WAVE_FormatTypeDef waveformat;
 extern char files[30][256];
 extern int file_num, file_index;
 extern int backState, pos, volume;
-extern int playTime, audioPlay, play;
+extern int playTime, audioPlay, play, goNext;
 
 MusicView::MusicView()
 {
@@ -74,22 +74,28 @@ void MusicView::SetMusicItem(int16_t itemSelected)
 
 void MusicView::btnNextClicked()
 {
-	playBar.setValue(0);
-	if(file_index < (file_num-1)){ audioPlay=0; pos=0; volume=20; SetMusicItem(file_index+1); }
-	else{ pos=0; }
+	btnStopPlay.forceState(false); btnStopPlay.invalidate();
+
+	playBar.setValue(0); audioPlay=0; pos=0; volume=20;
+	if(file_index < (file_num-1)) SetMusicItem(file_index+1);
+	else SetMusicItem(0);
+	cout << "~~~~\r\n";
+
+	btnStopPlay.forceState(true); btnStopPlay.invalidate();
 }
 
 void MusicView::btnPrevClicked()
 {
-	playBar.setValue(0);
-	if(backState<2){
-		pos=0;
-		if(file_index > 0) backState++;
-	}
+	btnStopPlay.forceState(false); btnStopPlay.invalidate();
+
+	playBar.setValue(0); pos=0; backState++;
 	if(backState==2){
-		if(file_index > 0){ audioPlay=0; pos=0; volume=20; SetMusicItem(file_index-1); }
-		backState=0;
+		audioPlay=0; volume=20; backState=0;
+		if(file_index > 0) SetMusicItem(file_index-1);
+		else SetMusicItem(file_num-1);
 	}
+
+	btnStopPlay.forceState(true); btnStopPlay.invalidate();
 }
 
 void MusicView::playMusic()
@@ -100,6 +106,13 @@ void MusicView::playMusic()
 
 void MusicView::handleTickEvent()
 {
+	if(goNext){
+		btnStopPlay.forceState(false); btnStopPlay.invalidate();
+		if(file_index < (file_num-1)){ SetMusicItem(file_index+1); }
+		playBar.setValue(0); goNext=0;
+		btnStopPlay.forceState(true); btnStopPlay.invalidate();
+	}
+
     int currentValue = playBar.getValue();
     int max, min;
     playBar.getRange(min, max);
@@ -107,7 +120,8 @@ void MusicView::handleTickEvent()
     if(play && audioPlay==2){
     	if (currentValue == min) increase = true;
 		else if (currentValue == max) increase = false;
-    }
+    } else increase = false;
+
     int nextValue = (increase == true ? currentValue+1 : currentValue);
     playBar.setValue(nextValue);
 }

@@ -851,7 +851,7 @@ Audio_BufferTypeDef audio_buffer;
 char files[30][256];
 int file_num=0, file_index=0;
 int backState=0, state, pos=0, volume=20;
-int playTime=0, audioPlay=0, play=0;
+int playTime=0, audioPlay=0, play=0, goNext=0;
 
 void BSP_AUDIO_OUT_TransferComplete_CallBack(void)
 {
@@ -894,13 +894,13 @@ void AudioTask(void *argument)
 			if(audioPlay == 2){
 				if(pos > waveformat.FileSize){
 					BSP_AUDIO_OUT_Stop(CODEC_PDWN_SW);
-					backState=0; pos=0; audioPlay=0; play=0;
+					backState=0; pos=0; audioPlay=0; play=0; volume=20; goNext=1;
 				} else{
 					if(audio_buffer.offset == BUFFER_OFFSET_HALF){
 						f_lseek(&SDFile, pos);
 						f_read(&SDFile, &audio_buffer.buff[0], AUDIO_BUFFER_SIZE/2, &bytesread);
 
-						if(bytesread >0){
+						if(bytesread > 0){
 							audio_buffer.offset = BUFFER_OFFSET_NONE;
 							pos += bytesread;
 						}
@@ -910,7 +910,7 @@ void AudioTask(void *argument)
 						f_lseek(&SDFile, pos);
 						f_read(&SDFile, &audio_buffer.buff[AUDIO_BUFFER_SIZE /2], AUDIO_BUFFER_SIZE/2, &bytesread);
 
-						if(bytesread >0){
+						if(bytesread > 0){
 							audio_buffer.offset = BUFFER_OFFSET_NONE;
 							pos += bytesread;
 						}
