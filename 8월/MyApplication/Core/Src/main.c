@@ -894,7 +894,7 @@ void AudioTask(void *argument)
 			if(audioPlay == 2){
 				if(pos > waveformat.FileSize){
 					BSP_AUDIO_OUT_Stop(CODEC_PDWN_SW);
-					backState=0; pos=0; audioPlay=0; play=0; volume=20; goNext=1;
+					backState=0; pos=0; audioPlay=0; goNext=1;
 				} else{
 					if(audio_buffer.offset == BUFFER_OFFSET_HALF){
 						f_lseek(&SDFile, pos);

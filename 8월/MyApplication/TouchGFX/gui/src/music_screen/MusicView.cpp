@@ -76,10 +76,9 @@ void MusicView::btnNextClicked()
 {
 	btnStopPlay.forceState(false); btnStopPlay.invalidate();
 
-	playBar.setValue(0); audioPlay=0; pos=0; volume=20;
+	playBar.setValue(0); audioPlay=0; pos=0;
 	if(file_index < (file_num-1)) SetMusicItem(file_index+1);
 	else SetMusicItem(0);
-	cout << "~~~~\r\n";
 
 	btnStopPlay.forceState(true); btnStopPlay.invalidate();
 }
@@ -90,7 +89,7 @@ void MusicView::btnPrevClicked()
 
 	playBar.setValue(0); pos=0; backState++;
 	if(backState==2){
-		audioPlay=0; volume=20; backState=0;
+		audioPlay=0; backState=0;
 		if(file_index > 0) SetMusicItem(file_index-1);
 		else SetMusicItem(file_num-1);
 	}
