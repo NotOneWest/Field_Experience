@@ -17,6 +17,7 @@
 | 2 주차 | https://onewest.notion.site/6-beb110a1b70a4b3284471d6e44af6d77?pvs=4 |
 | 3 주차 | https://onewest.notion.site/7-111aaa4dcd264d3dbdb034ef6390a0a1?pvs=4 |
 | 4-5 주차 | https://onewest.notion.site/8-9-7cec95fbd5d44060bb6ecc4b402655b4?pvs=4 |
+| 9월 1주차 | https://onewest.notion.site/1-abdf6772512a440ea25a6589737040be?pvs=4 |
 
 ### 9월 ~ 12월
 * 부서 이동으로 Android App 유지 보수 업무 (JAVA)
