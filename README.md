@@ -31,6 +31,8 @@
 |:--------:|:--------:|
 | 1 주차 | https://onewest.notion.site/5-c9f554ee2ade496384561cdb16c0ec46?pvs=4 |
 | 2 주차 | https://onewest.notion.site/6-b3c17342fae6405d8b165d5d180cf230?pvs=4 |
+| 3 주차 | https://onewest.notion.site/7-2aca5c080eb949a5a2959a13581e1c00?pvs=4 |
+
 
 ### 11월
 
