@@ -1,6 +1,0 @@
-../../TouchGFX/gui/include/gui/music_screen/MusicPresenter.hpp:28:13:MusicPresenter::~MusicPresenter()	1
-C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicPresenter.cpp:15:6:virtual void MusicPresenter::deactivate()	1
-../../TouchGFX/gui/include/gui/music_screen/MusicPresenter.hpp:28:13:virtual MusicPresenter::~MusicPresenter()	1
-C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicPresenter.cpp:10:6:virtual void MusicPresenter::activate()	1
-../../TouchGFX/gui/include/gui/music_screen/MusicPresenter.hpp:28:13:virtual void* MusicPresenter::_ZThn4_N14MusicPresenterD1Ev()	1
-C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicPresenter.cpp:4:1:MusicPresenter::MusicPresenter(MusicView&)	1

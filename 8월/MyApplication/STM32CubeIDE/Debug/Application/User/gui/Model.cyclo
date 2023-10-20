@@ -1,4 +1,0 @@
-C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/model/Model.cpp:4:1:Model::Model()	1
-C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/model/Model.cpp:9:6:void Model::tick()	1
-C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/model/Model.cpp:14:6:void Model::SetmusicSelected(int)	1
-C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/model/Model.cpp:19:5:int Model::GetMusic()	1

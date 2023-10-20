@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.21.4">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1">
+      <Text Id="Digital_clock" Alignment="Center" TypographyId="Readout">
+        <Translation Language="GB">&lt;time&gt;</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_50X2" Alignment="Left" TypographyId="Readout">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_MLHW" Alignment="Center" TypographyId="Readout">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_D757" Alignment="Center" TypographyId="Readout">
+        <Translation Language="GB">&lt;time&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_N7GZ" Alignment="Left" TypographyId="Readout">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_HHU2" Alignment="Center" TypographyId="Readout">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Readout" Font="arialbd.ttf" Size="28" Bpp="4" Direction="LTR" WildcardCharacters="APM :" WidgetWildcardCharacters="0123456789 :APM" WildcardCharacterRanges="0-9" />
+  </Typographies>
+</TextDatabase>

@@ -1,0 +1,15 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:43:6:virtual void MusicView::tearDownScreen()	0	static
+../../TouchGFX/gui/include/gui/music_screen/MusicView.hpp:11:13:MusicView::~MusicView()	8	static
+../../TouchGFX/gui/include/gui/music_screen/MusicView.hpp:11:13:virtual MusicView::~MusicView()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Bitmap.hpp:133:14:touchgfx::BitmapId touchgfx::Bitmap::getId() const	8	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:33:1:MusicView::MusicView()	8	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:126:1:cpp)	0	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:126:1:cpp)	0	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:38:6:virtual void MusicView::setupScreen()	0	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:48:6:virtual void MusicView::SetMusicItem(int16_t)	112	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:75:6:virtual void MusicView::btnNextClicked()	16	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:86:6:virtual void MusicView::btnPrevClicked()	16	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:100:6:virtual void MusicView::playMusic()	16	static
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/music_screen/MusicView.cpp:106:6:virtual void MusicView::handleTickEvent()	32	static

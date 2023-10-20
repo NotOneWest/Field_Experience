@@ -1,0 +1,6 @@
+MusicPresenter.hpp:28:13:MusicPresenter::~MusicPresenter()	0	static
+MusicPresenter.cpp:15:6:virtual void MusicPresenter::deactivate()	0	static
+MusicPresenter.hpp:28:13:virtual MusicPresenter::~MusicPresenter()	8	static
+MusicPresenter.cpp:10:6:virtual void MusicPresenter::activate()	16	static
+MusicPresenter.hpp:28:13:virtual void* MusicPresenter::_ZThn4_N14MusicPresenterD1Ev()	0	static
+MusicPresenter.cpp:4:1:MusicPresenter::MusicPresenter(MusicView&)	8	static

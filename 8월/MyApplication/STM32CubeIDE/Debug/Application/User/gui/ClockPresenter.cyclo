@@ -1,5 +1,0 @@
-../../TouchGFX/gui/include/gui/clock_screen/ClockPresenter.hpp:28:13:ClockPresenter::~ClockPresenter()	1
-C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/clock_screen/ClockPresenter.cpp:10:6:virtual void ClockPresenter::activate()	1
-../../TouchGFX/gui/include/gui/clock_screen/ClockPresenter.hpp:28:13:virtual ClockPresenter::~ClockPresenter()	1
-../../TouchGFX/gui/include/gui/clock_screen/ClockPresenter.hpp:28:13:virtual void* ClockPresenter::_ZThn4_N14ClockPresenterD1Ev()	1
-C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/clock_screen/ClockPresenter.cpp:4:1:ClockPresenter::ClockPresenter(ClockView&)	1
