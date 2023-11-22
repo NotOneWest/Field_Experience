@@ -32,9 +32,19 @@
 | 1 주차 | https://onewest.notion.site/5-c9f554ee2ade496384561cdb16c0ec46?pvs=4 |
 | 2 주차 | https://onewest.notion.site/6-b3c17342fae6405d8b165d5d180cf230?pvs=4 |
 | 3 주차 | https://onewest.notion.site/7-2aca5c080eb949a5a2959a13581e1c00?pvs=4 |
+| 4 주차 | https://onewest.notion.site/8-d4600bf8dff34214b0904166eb9400c5?pvs=4 |
 
 
 ### 11월
+| No | Notion Link |
+|:--------:|:--------:|
+| 1 주차 | Android App 관련 개인 자습 진행 |
+| 2 주차 | https://onewest.notion.site/10-f9d5737de3cb48b3b997f7fcf8cc731c?pvs=4 |
+| 3 주차 | https://onewest.notion.site/11-41785642f2724151992bce056689c7cf?pvs=4 |
+| 4 주차 | https://onewest.notion.site/12-060b400ff5764adcaac92de77c7dc10b?pvs=4 |
+| 5 주차 |  |
+
+
 
 ### 9월 ~ 12월
 * 부서 이동으로 Android App 유지 보수 업무 (JAVA)
