@@ -51,4 +51,12 @@
 | 2 주차 | https://onewest.notion.site/10-f9d5737de3cb48b3b997f7fcf8cc731c?pvs=4 |
 | 3 주차 | https://onewest.notion.site/11-41785642f2724151992bce056689c7cf?pvs=4 |
 | 4 주차 | https://onewest.notion.site/12-060b400ff5764adcaac92de77c7dc10b?pvs=4 |
-| 5 주차 |  |
+| 5 주차 | https://onewest.notion.site/13-8aae232b6d314a63ae0cb19db7f9c2dc?pvs=4 |
+
+### 12월
+| No | Notion Link |
+|:--------:|:--------:|
+| 1 주차 | https://onewest.notion.site/14-c0513547ffd748dda354a62a6ee50d8c?pvs=4 |
+| 2 주차 | |
+| 3 주차 | |
+| 4 주차 | |
