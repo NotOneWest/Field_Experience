@@ -57,6 +57,6 @@
 | No | Notion Link |
 |:--------:|:--------:|
 | 1 주차 | https://onewest.notion.site/14-c0513547ffd748dda354a62a6ee50d8c?pvs=4 |
-| 2 주차 | |
-| 3 주차 | |
-| 4 주차 | |
+| 2 주차 | https://onewest.notion.site/15-814b829e9092430a8a31de71bdac35ea?pvs=4 |
+| 3 주차 | https://onewest.notion.site/16-22cc4561edfb4c6784597f3a8cd1b2cc?pvs=4 |
+| 4 주차 | https://onewest.notion.site/17-0469890b88d945fe9b05d6d7c9775db2?pvs=4 |
