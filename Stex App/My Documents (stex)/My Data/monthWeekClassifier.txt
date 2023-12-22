@@ -1,0 +1,104 @@
+https://hojun-dev.tistory.com/entry/JAVA-Calendar-%ED%95%9C%EA%B5%AD%EC%8B%9D-%EC%9B%94-%EC%A3%BC%EC%B0%A8-%EA%B5%AC%ED%95%98%EA%B8%B0
+
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Locale;
+
+public class main
+{
+    public static int subWeekNumberIsFirstDayAfterThursday(int year, int month, int day){
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(year, month - 1, day);
+        calendar.setFirstDayOfWeek(Calendar.MONDAY);
+        int weekOfDay = calendar.get(Calendar.DAY_OF_WEEK); // 
+
+        calendar.set(Calendar.DAY_OF_MONTH, 1);
+        int weekOfDayFirst = calendar.get(Calendar.DAY_OF_WEEK); // 1
+
+        if((weekOfDayFirst >= Calendar.MONDAY) && (weekOfDayFirst <= Calendar.THURSDAY)){ return 0; } 
+        else if((day == 1) || (day == 2 && (weekOfDay == Calendar.SATURDAY || weekOfDay == Calendar.SUNDAY)) || (day == 3 && weekOfDay == Calendar.SUNDAY)) { return -1; }
+        else{ return 1; }
+    }
+    
+    public static int addMonthIsLastDayBeforeThursday(int year, int month, int day) {
+        Calendar calendar = Calendar.getInstance();
+        calendar.setFirstDayOfWeek(Calendar.MONDAY);
+        calendar.set(year, month - 1, day);
+
+        int currentWeekNumber = calendar.get(Calendar.WEEK_OF_MONTH);
+        int maximumWeekNumber = calendar.getActualMaximum(Calendar.WEEK_OF_MONTH);
+
+        if(currentWeekNumber == maximumWeekNumber){ 
+            calendar.set(year, month - 1, calendar.getActualMaximum(Calendar.DAY_OF_MONTH));
+            int maximumDayOfWeek = calendar.get(Calendar.DAY_OF_WEEK);
+
+            if(maximumDayOfWeek < Calendar.THURSDAY && maximumDayOfWeek > Calendar.SUNDAY){ return 1; }
+            else{ return 0; }
+        } else{ return 0; }
+    }
+    
+    public static String getCurrentWeekOfMonth(int year, int month, int day)  {
+        int subtractFirstWeekNumber = subWeekNumberIsFirstDayAfterThursday(year, month, day);
+        int subtractLastWeekNumber = addMonthIsLastDayBeforeThursday(year, month, day);
+        Calendar calendar = Calendar.getInstance();
+        
+        if (subtractLastWeekNumber > 0){ day = 1; subtractFirstWeekNumber = 0; }
+
+        if (subtractFirstWeekNumber < 0)  {
+            calendar.set(year, month - 1, day);
+            calendar.add(Calendar.DATE, -1);
+
+            return getCurrentWeekOfMonth(calendar.get(Calendar.YEAR), (calendar.get(Calendar.MONTH) + 1), calendar.get(Calendar.DATE));
+        }
+
+        calendar.setFirstDayOfWeek(Calendar.MONDAY);
+        calendar.setMinimalDaysInFirstWeek(1);
+        calendar.set(year, month - (1 - subtractLastWeekNumber), day);
+        int dayOfWeekForFirstDayOfMonth = calendar.get(Calendar.WEEK_OF_MONTH) - subtractFirstWeekNumber;
+
+        return (calendar.get(Calendar.MONTH) + 1) + "," + dayOfWeekForFirstDayOfMonth + "( " + subtractFirstWeekNumber + ", " + subtractLastWeekNumber + " )";
+    }
+    
+    public static void main(String[] args) {
+        System.out.println("-START- " + getCurrentWeekOfMonth(2023, 8, 27));
+
+        System.out.println(getCurrentWeekOfMonth(2023, 8, 28));
+        System.out.println(getCurrentWeekOfMonth(2023, 8, 29));
+        System.out.println(getCurrentWeekOfMonth(2023, 8, 30));
+        System.out.println(getCurrentWeekOfMonth(2023, 8, 31));
+        System.out.println(getCurrentWeekOfMonth(2023, 9, 1));
+        System.out.println(getCurrentWeekOfMonth(2023, 9, 2));
+        System.out.println(getCurrentWeekOfMonth(2023, 9, 3));
+
+        System.out.println(getCurrentWeekOfMonth(2023, 9, 4) + " -LAST-");
+
+        System.out.println("------------------------------------");
+
+        System.out.println("-START- " + getCurrentWeekOfMonth(2023, 9, 24));
+
+        System.out.println(getCurrentWeekOfMonth(2023, 9, 25));
+        System.out.println(getCurrentWeekOfMonth(2023, 9, 26));
+        System.out.println(getCurrentWeekOfMonth(2023, 9, 27));
+        System.out.println(getCurrentWeekOfMonth(2023, 9, 28));
+        System.out.println(getCurrentWeekOfMonth(2023, 9, 29));
+        System.out.println(getCurrentWeekOfMonth(2023, 9, 30));
+        System.out.println(getCurrentWeekOfMonth(2023, 10, 1));
+
+        System.out.println(getCurrentWeekOfMonth(2023, 10, 2) + " -LAST-");
+
+        System.out.println("------------------------------------");
+
+        System.out.println("-START- " + getCurrentWeekOfMonth(2023, 10, 29));
+
+        System.out.println(getCurrentWeekOfMonth(2023, 10, 30));
+        System.out.println(getCurrentWeekOfMonth(2023, 10, 31));
+        System.out.println(getCurrentWeekOfMonth(2023, 11, 1));
+        System.out.println(getCurrentWeekOfMonth(2023, 11, 2));
+        System.out.println(getCurrentWeekOfMonth(2023, 11, 3));
+        System.out.println(getCurrentWeekOfMonth(2023, 11, 4));
+        System.out.println(getCurrentWeekOfMonth(2023, 11, 5));
+
+        System.out.println(getCurrentWeekOfMonth(2023, 11, 6) + " -LAST-");
+    }
+
+}
